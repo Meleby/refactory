@@ -1,0 +1,24 @@
+{
+  "name": "tdd-code",
+  "version": "1.0.0",
+  "description": "All code from the TDD class",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "sinon": "^9.0.2"
+  }
+}
